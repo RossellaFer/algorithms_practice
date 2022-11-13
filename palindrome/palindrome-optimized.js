@@ -1,4 +1,5 @@
 var isPalindrome = function(x) {
+    if (x < 0) return false;
     let reverse = 0;
     let copy = x;
     

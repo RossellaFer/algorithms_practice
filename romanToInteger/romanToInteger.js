@@ -17,7 +17,7 @@ const romanToInt = function (s) {
   for (let i = 0; i <= s.length - 1; i++) {
     const char = s[i];
     const nextChar = s[i + 1];
-    conversionChart[char] < conversionChart[nextChar]
+    conversionChart[nextChar] && conversionChart[char] < conversionChart[nextChar]
       ? (integerValue -= conversionChart[char])
       : (integerValue += conversionChart[char]);
   }

@@ -8,7 +8,9 @@ Repository to keep track of solved Leetcode problems and algorithms studied duri
 - [quickSort](quickSort)
 
 ### Leetcode
-- [twoSum](twoSum)
-- [palindrome](palindrome)
-- [romanToInteger](romanToInteger)
-- [longestCommonPrefix](longestCommonPrefix)
+
+- [Two Sum](twoSum)
+- [Palindrome](palindrome)
+- [Roman To Integer](romanToInteger)
+- [Longest Common Prefix](longestCommonPrefix)
+- [Valid Parentheses](validParentheses)

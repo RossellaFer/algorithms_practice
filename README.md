@@ -19,3 +19,4 @@ Repository to keep track of solved Leetcode problems and algorithms studied duri
 - [Longest Common Prefix](longestCommonPrefix)
 - [Valid Parentheses](validParentheses)
 - [Remove duplicates](removeDuplicates)
+- [Contains duplicates](containsDuplicates)

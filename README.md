@@ -9,7 +9,7 @@ Repository to keep track of solved Leetcode problems and algorithms studied duri
 ### Generic algorithms
 
 - [Binary search](binarySearch)
-- [quickSort](quickSort)
+- [QuickSort](quickSort)
 
 ### Leetcode
 
@@ -20,3 +20,4 @@ Repository to keep track of solved Leetcode problems and algorithms studied duri
 - [Valid Parentheses](validParentheses)
 - [Remove duplicates](removeDuplicates)
 - [Contains duplicates](containsDuplicates)
+- [Max Consecutive Ones](maxConsecutiveOnes)

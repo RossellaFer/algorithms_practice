@@ -8,6 +8,10 @@ For arrays with 3 elements, you will need to pick a pivot, and using this you fi
 
 Then you move on to sorting the parts, by calling quicksort recursively on these arrays.
 
+This is an example of how the algorithm runs on the array `[1,5,3,2,8,10]`
+
+<img width="491" alt="Example" src="https://user-images.githubusercontent.com/39148794/204911951-98e5a19b-41f4-416b-a57f-14531593e560.png">
+
 ## Complexities
 
 The performance of quicksort depends on the pivot you choose.
@@ -16,3 +20,4 @@ In the best case scenario (where you pick a good pivot), the time complexity is 
 In the worst case scenario, the time complexity is O(n^2), because you touch every element of each level of the call stack: O(n) \* O(n) = O(n^2)
 
 Execution memory is used for quicksort, while the space is 1
+

@@ -21,3 +21,4 @@ Repository to keep track of solved Leetcode problems and algorithms studied duri
 - [Remove duplicates](removeDuplicates)
 - [Contains duplicates](containsDuplicates)
 - [Max Consecutive Ones](maxConsecutiveOnes)
+- [Move Zeroes](moveZeroes)

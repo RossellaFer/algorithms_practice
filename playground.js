@@ -1,14 +1,13 @@
-var moveZeroesOptimized = function(nums) {
-    let left = 0;
-    for (let i = 0; i < nums.length; i++) {
-        if(nums[i] !== 0) {
-            let tmp = nums[i];
-            nums[i] = nums[left];
-            nums[left] = tmp;
-            left++;
+var maximumValue = function(strs) {
+    let max = null;
+    for (let i = 0; i < strs.length; i++) {
+        let currentStr = strs[i];
+        let strValue = /^\d+$/.test(currentStr) ? Number(currentStr) : currentStr.length;
+        if(strValue > max) {
+            max = strValue;
         }
     }
-    return nums;
-}
+    return max;
+};
 
-console.log(moveZeroesOptimized([0,1,0,3,12]));
+console.log(maximumValue(["alic3","bob","3","4","00000"]))

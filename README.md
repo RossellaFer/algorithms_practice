@@ -23,6 +23,7 @@ Repository to keep track of solved Leetcode problems and algorithms studied duri
 - [Contains duplicates](containsDuplicates)
 - [Max Consecutive Ones](maxConsecutiveOnes)
 - [Move Zeroes](moveZeroes)
+- [Merge Meeting Times [Interview Cake]](mergeMeetingTimes)
 
 #### Linked Lists
 

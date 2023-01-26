@@ -24,6 +24,7 @@ Repository to keep track of solved Leetcode problems and algorithms studied duri
 - [Max Consecutive Ones](maxConsecutiveOnes)
 - [Move Zeroes](moveZeroes)
 - [Merge Meeting Times [Interview Cake]](mergeMeetingTimes)
+- [Reverse words [Interview Cake]](reverseWords)
 
 #### Linked Lists
 

@@ -11,9 +11,14 @@ The order is LIFO (last in first out), because the last item that comes in is th
 - undo/redo functionality when writing text
 - call logs
 
+### Operations
+
 Lookup = O(n)
+
 pop = O(1)
+
 push = O(1)
+
 peek = O(1)
 
 ### Implementation of stacks in JavaScript

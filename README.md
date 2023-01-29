@@ -6,13 +6,18 @@ Repository to keep track of solved Leetcode problems and algorithms studied duri
 
 [Arrays](data-structures/arrays)
 [Linked lists](data-structures/linked-lists)
+[Stacks and queues](data-structures/stacks-queues)
 
-### Generic algorithms
+## Generic algorithms
 
 - [Binary search](binarySearch)
 - [QuickSort](quickSort)
 
-### Leetcode
+## Exercises
+
+### Arrays
+
+#### Leetcode
 
 - [Two Sum](twoSum)
 - [Palindrome](palindrome)
@@ -23,9 +28,18 @@ Repository to keep track of solved Leetcode problems and algorithms studied duri
 - [Contains duplicates](containsDuplicates)
 - [Max Consecutive Ones](maxConsecutiveOnes)
 - [Move Zeroes](moveZeroes)
+
+#### Interview Cake
+
 - [Merge Meeting Times [Interview Cake]](mergeMeetingTimes)
 - [Reverse words [Interview Cake]](reverseWords)
 
-#### Linked Lists
+### Hash maps
+
+### Linked Lists
 
 - [Reverse a linked list](reverseLinkedList)
+
+### Stacks and queues
+
+- [Implement queues as stacks](implementQueuesUsingStacks)

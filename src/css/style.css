@@ -1,0 +1,92 @@
+@import url('./reset.css');
+
+h1 {
+  color: deepskyblue;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.blogPostImage {
+  max-width: 600px;
+}
+
+img {
+  border-radius: 4px;
+  transition: all 0.2s ease-in-out;
+}
+
+img:hover{
+  border-radius: 15px;
+}
+
+.header {
+    background-color: #fff;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    max-width: 100vw;
+    width: 100%;
+    margin: 0;
+    padding: 0 1.5rem;
+    transition: height .3s ease,box-shadow .3s ease;
+    z-index: 3;
+    box-shadow: 0 0 1px rgb(0 0 0 / 25%);
+}
+
+.nav {
+  display: flex;
+  flex-wrap: no-wrap;
+  align-items: center;
+  justify-content: space-between;
+  height: 4rem;
+  margin: auto;
+  padding: 0 1.5rem;
+  transition: height .3s ease,box-shadow .3s ease;
+}
+
+.logo_image {
+  max-width: 45px;
+}
+
+.main {
+  margin-top: 4rem;
+  min-height: calc(100vh - 12rem);
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1.5rem;
+}
+
+.card__container {
+  margin: 1rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+  padding: 0;
+  border-radius: 0.5rem;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.card__container:hover {
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+
+.card__link {
+  text-decoration: none;
+}
+
+pre {
+  background-color: #f6f8fa;
+  padding: 5px 10px;
+}

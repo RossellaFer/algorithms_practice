@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% include "basehead.html" %}
+  {% block head %}{% endblock %}
+</head>
+<body>
+  <header>
+    <header class="header">
+      <nav class="nav">
+        <div class="brand">
+          <a href="https://rossellaferrandino.info">
+            <img class="logo_image" alt="Rossella Ferrandino logo" src="/assets/images/RF_logo_black_2.svg"/>
+          </a>
+        </div>
+        <div class="links">
+          <a href="/" aria-current="page" class="">All Posts</a>
+        </div>
+      </nav>
+    </header>
+  </header>
+  <main>
+    {{ content | safe }}
+  </main>
+</body>
+</html>

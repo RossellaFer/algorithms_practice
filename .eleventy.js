@@ -1,4 +1,6 @@
 const Card = require('./src/_includes/components/Card');
+const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
+const { DateTime } = require("luxon");
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/assets/");
@@ -6,6 +8,14 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addWatchTarget("src/css/");
   eleventyConfig.addShortcode("Card", Card);
+
+  eleventyConfig.addPlugin(syntaxHighlight);
+
+  eleventyConfig.addFilter("readablePostDate", (dateObj) => {
+    return DateTime.fromJSDate(dateObj, {
+        zone: "Europe/Rome",
+    }).setLocale('en').toLocaleString(DateTime.DATE_FULL);
+  });
 
   eleventyConfig.addFilter("randomItem", (arr) => {
       arr.sort(() => {

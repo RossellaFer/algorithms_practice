@@ -1,7 +1,7 @@
 <div class="container">
-    <h2>Blog</h2>
+    <h2 class="highlight">Blog</h2>
   <ul>
-  {% for post in collections.posts %}<li class="card__container card__container--raised"><a class="card__link" href="{{ post.url }}"><h2 class="card__title">{{post.data.title}}</h2></a></li>
+  {% for post in collections.posts %}<a class="card__link" href="{{ post.url }}"><li class="card__container card__container--raised"><h2 class="card__title">{{post.data.title}}</h2></li></a>
   {% endfor %}
   </ul>
 </div>

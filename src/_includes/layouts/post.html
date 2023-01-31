@@ -4,7 +4,10 @@ layout: /layouts/base.html
 
 <div class="container">
   <div class="main">
-    <h1>{{ title }}</h1>
+    <heading>
+      <h1 class="blog_post_title highlight">{{ title }}</h1>
+      <p class="blog_post_date">{{ date | readablePostDate }}</p>
+    </heading>
   <article>
   {{ content | safe}}
   </article>

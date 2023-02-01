@@ -7,6 +7,10 @@ body {
   color: var(--dark-blue);
 }
 
+a:visited {
+  color: var(--dark-blue);
+}
+
 .main {
   margin-top: 4rem;
   min-height: calc(100vh - 12rem);
@@ -147,4 +151,19 @@ h2 {
   font-size: 14px;
   margin-bottom: 20px;
   font-style: italic;
+}
+
+.blog_tags {
+  list-style: none;
+  display: inline;
+  background-color: var(--coral-light);
+  font-size: 14px;
+  margin: 4px 5px 15px 0;
+  padding: 4px 10px 6px 10px;
+  border-radius: 10px;
+}
+
+.blog_tags a {
+  color: var(--dark-blue);
+  text-decoration: none;
 }

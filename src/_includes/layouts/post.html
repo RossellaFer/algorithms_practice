@@ -7,14 +7,16 @@ layout: /layouts/base.html
     <heading>
       <h1 class="blog_post_title highlight">{{ title }}</h1>
       <p class="blog_post_date">{{ date | readablePostDate }}</p>
+      <ul>
+        {% for tag in tags %}
+          <li class="blog_tags">
+            <a href="/blog/tag/{{ tag | slugify }}">{{tag}}</a>
+          </li>
+        {% endfor %}
+      </ul>
     </heading>
   <article>
   {{ content | safe}}
   </article>
 </div>
 </div>
-  <!-- <aside>
-  {% for fact in facts | randomItem %}
-    <p>{{ fact }}</p>
-  {% endfor %}
-</aside> -->

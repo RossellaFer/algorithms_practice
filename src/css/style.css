@@ -7,6 +7,7 @@ body {
   color: var(--dark-blue);
 }
 
+a, 
 a:visited {
   color: var(--dark-blue);
 }
@@ -68,6 +69,10 @@ ul {
 
 .links a:hover {
   color: var(--coral);
+}
+
+.blog_postlist {
+  margin-top: 30px;
 }
 
 .card__container {
@@ -166,4 +171,18 @@ h2 {
 .blog_tags a {
   color: var(--dark-blue);
   text-decoration: none;
+}
+
+.heading_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+@media screen and (max-width: 641px) {
+  .heading_container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
 }

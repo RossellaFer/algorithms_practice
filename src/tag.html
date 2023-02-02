@@ -4,15 +4,19 @@ pagination:
   size: 1
   alias: tag
   addAllPagesToCollections: true
-layout: layouts/base.html
-permalink: /blog/tag/{{tag | slugify }}/index.html
-eleventyComputed:
+  layout: layouts/base.html
+  permalink: /blog/tag/{{tag | slugify }}/index.html
+  eleventyComputed:
   title: Posts Tagged with "{{ tag }}"
 ---
 
 <div class="container">
     <div class="main">
+      <div class="heading_container">
         <h2 class="highlight">Posts Tagged with {{ tag }}</h2>
+        <a href="/">Back to all posts</a>
+      </div>
+
 
         <ul>
             {% for post in collections[tag] %}

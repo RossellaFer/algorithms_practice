@@ -1,5 +1,5 @@
 ---
-title: Valid parentheses
+title: 02. Valid parentheses
 description: Valid parentheses algorithm question
 date: 2023-01-31
 tags:

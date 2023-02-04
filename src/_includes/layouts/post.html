@@ -5,9 +5,10 @@ layout: /layouts/base.html
 <div class="container">
   <div class="main">
     <heading>
-      <h1 class="blog_post_title highlight">{{ title }}</h1>
+      <h1 class="title highlight">{{ title }}</h1>
       <p class="blog_post_date">{{ date | readablePostDate }}</p>
       <ul>
+        <span>Tags: </span>
         {% for tag in tags %}
           <li class="blog_tags">
             <a href="/blog/tag/{{ tag | slugify }}">{{tag}}</a>
@@ -19,4 +20,5 @@ layout: /layouts/base.html
   {{ content | safe}}
   </article>
 </div>
+  <a class="back_link" href="/">← Back to main blog</button>
 </div>

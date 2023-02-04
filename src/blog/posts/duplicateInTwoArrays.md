@@ -3,8 +3,8 @@ title: 03. Two arrays - do they contain a duplicate?
 description: Given two arrays, create a function that lets the user know (true/false) whether these arrays contain common items
 date: 2023-02-02
 tags:
-  - Algorithm
-  - Array
+  - algorithm
+  - array
 ---
 
 ### Task

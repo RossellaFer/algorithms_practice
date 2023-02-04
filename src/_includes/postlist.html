@@ -1,5 +1,5 @@
 <div class="container">
-    <h2 class="highlight">Blog</h2>
+    <h1 class="highlight title">Blog</h1>
   <ul class="blog_postlist">
   {% for post in collections.posts %}<a class="card__link" href="{{ post.url }}"><li class="card__container card__container--raised"><h2 class="card__title">{{post.data.title}}</h2></li></a>
   {% endfor %}

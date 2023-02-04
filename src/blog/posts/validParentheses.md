@@ -3,9 +3,9 @@ title: 02. Valid parentheses
 description: Valid parentheses algorithm question
 date: 2023-01-31
 tags:
-  - Algorithm
-  - Stack
-  - Leetcode
+  - algorithm
+  - stack
+  - leetcode
 ---
 
 ### Task

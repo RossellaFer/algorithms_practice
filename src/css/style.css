@@ -20,7 +20,20 @@ a:visited {
 .container {
   max-width: 800px;
   margin: 0 auto;
-  padding: 1.5rem;
+  padding: 0 2em 4em 2em;
+}
+
+.menu {
+  height: 100%;
+  border-right: 1px solid #ddd;
+  width: 200px;
+  position: fixed;
+  left: 0;
+  z-index: 2;
+  top: 0;
+  background: var(--teal-light);
+  overflow-x: hidden;
+  padding: 4rem 0 6rem;
 }
 
 .header {
@@ -135,7 +148,7 @@ h2 {
   font-size: 24px;
 }
 
-.blog_post_title {
+.title {
   margin-bottom: 6px;
 }
 
@@ -179,10 +192,34 @@ h2 {
   align-items: baseline;
 }
 
+.category {
+  padding: 1rem;
+}
+
+.category a {
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.back_link {
+  float: right;
+  margin-top: 20px;
+}
+
 @media screen and (max-width: 641px) {
+
+  h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
   .heading_container {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+  }
+
+  .menu {
+    width: 0;
   }
 }

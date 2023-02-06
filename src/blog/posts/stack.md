@@ -1,5 +1,5 @@
 ---
-title: 04 - Stack
+title: 04. Stack
 description: Theory about stacks and how they can be built using JavaScript
 date: 2023-02-04
 tags:

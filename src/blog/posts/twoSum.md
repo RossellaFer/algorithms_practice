@@ -1,7 +1,7 @@
 ---
 title: 01. Two Sum
 description: Two sum algorithm question
-date: 2023-31-01
+date: 2023-01-31
 tags:
   - algorithm
   - array

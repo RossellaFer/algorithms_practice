@@ -12,26 +12,28 @@ a:visited {
   color: var(--dark-blue);
 }
 
-.main {
+.main-container {
+  display: flex;
   margin-top: 4rem;
-  min-height: calc(100vh - 12rem);
 }
 
-.container {
-  max-width: 800px;
+.content {
   margin: 0 auto;
   padding: 0 2em 4em 2em;
+  flex-grow: 1;
+  max-width: 800px;
+}
+
+.sidebar {
+  width: 200px;
+  background: var(--teal-light);
 }
 
 .menu {
   height: 100%;
   border-right: 1px solid #ddd;
-  width: 200px;
-  position: fixed;
-  left: 0;
   z-index: 2;
   top: 0;
-  background: var(--teal-light);
   overflow-x: hidden;
   padding: 4rem 0 6rem;
 }
@@ -219,7 +221,7 @@ h2 {
     align-items: flex-start;
   }
 
-  .menu {
+  .sidebar {
     width: 0;
   }
 }

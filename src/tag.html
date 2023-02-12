@@ -10,8 +10,8 @@ eleventyComputed:
   title: Posts Tagged with "{{ tag }}"
 ---
 
-<div class="container">
-    <div class="main">
+<div class="content">
+    <main class="main">
       <div class="heading_container">
         <h1 class="highlight title">Posts Tagged with "{{ tag }}"</h1>
         <a href="/">Back to all posts</a>
@@ -21,5 +21,5 @@ eleventyComputed:
             <a class="card__link" href="{{ post.url }}"><li class="card__container card__container--raised"><h2 class="card__title">{{post.data.title}}</h2></li></a>
             {% endfor %}
         </ul>
-    </div>
+      </main>
 </div>

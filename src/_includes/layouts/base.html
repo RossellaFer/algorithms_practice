@@ -5,7 +5,6 @@
   {% block head %}{% endblock %}
 </head>
 <body>
-  <header>
     <header class="header">
       <nav class="nav">
         <div class="brand">
@@ -18,9 +17,8 @@
         </div>
       </nav>
     </header>
-  </header>
-  <main>
-    <div class="sidebar">
+  <div class="main-container">
+    <aside class="sidebar">
       <nav class="menu">
         <div class="categories">
           <ul>
@@ -29,8 +27,8 @@
           </ul>
         </div>
       </nav>
-    </div>
+    </aside>
     {{ content | safe }}
-  </main>
+  </div>
 </body>
 </html>

@@ -15,10 +15,12 @@ a:visited {
 .main-container {
   display: flex;
   margin-top: 4rem;
+  min-height: calc(100vh - 60px);
+  margin-left: 300px;
 }
 
 .content {
-  margin: 0 auto;
+  margin: 3rem auto;
   padding: 0 2em 4em 2em;
   flex-grow: 1;
   max-width: 800px;
@@ -27,6 +29,9 @@ a:visited {
 .sidebar {
   width: 200px;
   background: var(--teal-light);
+  position: fixed;
+  height: 100%;
+  left: 0;
 }
 
 .menu {
@@ -195,12 +200,59 @@ h2 {
 }
 
 .category {
-  padding: 1rem;
+  padding: 2rem 1.5rem;
+  color: var(--grey);
+  background-color: transparent;
+  transition: all 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+  mask-image: -webkit-radial-gradient(white, black);
+  -webkit-mask-image: -webkit-radial-gradient(white, black);
+  position: relative;
 }
 
 .category a {
   text-decoration: none;
   font-size: 18px;
+}
+
+.category-text {
+  position: relative;
+  z-index: 2;
+}
+
+.category:hover {
+  border-color: var(--coral-light);
+  transform: translateY(-4px);
+}
+
+.fill-container {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  padding-bottom: 100%;
+  transform: translateY(-50%) rotate(180deg);
+}
+
+.categoryt:hover .fill-container {
+  transform: translateY(-50%) rotate(0);
+}
+
+.fill-container::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #21D4FD;
+  background-image: linear-gradient(19deg, #6fd5ec 0%, #fdb1aff7 100%);
+  border-radius: 70% 30% 30% 70% / 10% 40% 60% 40%;
+  transition: all 0.6s cubic-bezier(0.25, 1, 0.5, 1); 
+  transform: translateY(-100%);
+}
+
+.category:hover .fill-container::after {
+  transform: translateY(0);
 }
 
 .back_link {
@@ -219,8 +271,12 @@ h2 {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    margin-bottom: 3rem;
   }
 
+  .heading_container a {
+    margin-top: 15px;
+  }
   .sidebar {
     width: 0;
   }

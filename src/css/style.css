@@ -265,4 +265,9 @@ h2 {
   .sidebar {
     width: 0;
   }
+
+  .main-container {
+    margin-left: 0;
+  }
+
 }

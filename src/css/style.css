@@ -160,7 +160,7 @@ h2 {
 }
 
 .blogPostImage {
-  max-width: 600px;
+  max-width: 100%;
 }
 
 .blogPostImage {
@@ -268,6 +268,15 @@ h2 {
 
   .main-container {
     margin-left: 0;
+  }
+
+  .blogPostImage {
+    max-width: 100%;
+  }
+
+  .nav {
+    padding-left: 0;
+    padding-right: 0;
   }
 
 }

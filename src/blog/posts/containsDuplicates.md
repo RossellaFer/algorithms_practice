@@ -49,11 +49,30 @@ Comparing the first number with all the others in the array, then move to the se
 
 Sorting the array first and then comparing each value with the one next to it would allow us to iterate through the array only once. The time complexity for this is O(n log n), since we need O(log n) to sort and then O(n) to traverse the array once. Space complexity will be O(1)
 
----
+<br />
+
+<details>
+  <summary>Click to view solution</summary>
+
+```js
+var containsDuplicate = (nums) => {
+  const sorted = nums.sort((a, b) => a - b);
+  for (let i = 0; i < sorted.length; i++) {
+    if (sorted[i] == sorted[i + 1]) {
+      return true;
+    }
+  }
+  return false;
+};
+```
+
+## </details>
 
 <br />
 
-If we sacrifice space complexity, we can improve the time complexity
+---
+
+_If we sacrifice space complexity, we can improve the time complexity_
 
 <br />
 

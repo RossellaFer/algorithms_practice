@@ -85,6 +85,7 @@ var twoSum = function (nums, target) {
       }
     }
   }
+  return [];
 };
 
 twoSum([2, 7, 11, 15], 9);
@@ -97,6 +98,8 @@ twoSum([2, 7, 11, 15], 9);
 ### Optimized solution using hash map to hold values
 
 <br />
+
+We can use a hash map to hold the values of the numbers already seen and their indices. By checking against the difference between the target and the current number, we can see if the complementary number has already been found in the array.
 
 <details>
   <summary>Click to view solution</summary>

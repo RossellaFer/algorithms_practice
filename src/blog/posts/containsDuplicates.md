@@ -117,3 +117,17 @@ var containsDuplicate = function (nums) {
 Using Map instead of an object could be faster
 
 <br />
+
+<details>
+  <summary>Click to view solution</summary>
+
+```js
+var containsDuplicate = function (nums) {
+  const set = new Set(nums);
+  return nums.length !== set.size;
+};
+```
+
+</details>
+
+<br />

@@ -43,6 +43,10 @@ Explanation: The subarray [5,4,-1,7,8] has the largest sum 23.
 
 <br />
 
+- Contiguous subarray means that all of the elements of the subarray have consecutive indexes
+
+<br />
+
 #### Brute force
 
 <br />
@@ -54,6 +58,8 @@ We can calculate the sum of every single subarray, which would be very inefficie
 #### Kadane’s Algorithm
 
 <br />
+
+We need a max variable to keep track of the maximum sum. We can initialize the
 
 Starting from the first element of the array, we would traverse it and calculate the sum of every possible subarray ending with the element nums[i + n].
 
@@ -70,10 +76,10 @@ When the next element of the array is greater than the sum of the prev subarray 
 
 ```js
 var maxSubArray = function (nums) {
-  let maxSum = -Infinity;
+  let maxSum = nums[0];
   let runningSum = 0;
 
-  for (let i = 0; i < nums.length; i++) {
+  for (let i = 1; i < nums.length; i++) {
     runningSum = Math.max(runningSum + nums[i], nums[i]);
     maxSum = Math.max(maxSum, runningSum);
   }

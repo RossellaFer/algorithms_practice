@@ -59,9 +59,9 @@ We can calculate the sum of every single subarray, which would be very inefficie
 
 <br />
 
-We need a max variable to keep track of the maximum sum. We can initialize the
+We need a max variable to keep track of the maximum sum. We can initialize the maxSum as the first element of the array, as in itself this is a subarray.
 
-Starting from the first element of the array, we would traverse it and calculate the sum of every possible subarray ending with the element nums[i + n].
+Starting from the second element of the array, we would traverse it and calculate the sum of every possible subarray ending with the element nums[i + n].
 
 When the next element of the array is greater than the sum of the prev subarray with current element (runningSum = Math.max(runningSum + nums[i], nums[i]), we change the beginning of the subarray, starting from the current element.
 

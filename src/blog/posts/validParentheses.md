@@ -6,6 +6,7 @@ tags:
   - algorithm
   - stack
   - leetcode
+  - hash map
 ---
 
 ### Task

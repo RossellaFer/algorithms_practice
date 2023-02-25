@@ -6,6 +6,7 @@ tags:
   - algorithm
   - array
   - leetcode
+  - two pointers
 ---
 
 ### Task

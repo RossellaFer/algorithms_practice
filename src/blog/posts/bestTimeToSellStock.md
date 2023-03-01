@@ -7,6 +7,7 @@ tags:
   - array
   - leetcode
   - two pointers
+  - sliding window
 ---
 
 ### Task
@@ -40,10 +41,6 @@ Note that buying on day 2 and selling on day 1 is not allowed because you must b
 <br />
 
 ### Comments
-
-<br />
-
-#### Sorting
 
 <br />
 

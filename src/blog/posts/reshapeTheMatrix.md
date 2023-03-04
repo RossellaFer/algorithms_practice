@@ -1,5 +1,5 @@
 ---
-title: 13. Reshaping the matrix
+title: 23. Reshaping the matrix
 description: Reshaping the matrix
 date: 2023-03-01
 tags:

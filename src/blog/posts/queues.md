@@ -1,5 +1,5 @@
 ---
-title: 05. Queue
+title: 03. Queue
 description: Theory about stacks and how they can be built using JavaScript
 date: 2023-02-04
 tags:

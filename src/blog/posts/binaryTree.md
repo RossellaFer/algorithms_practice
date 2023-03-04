@@ -1,5 +1,5 @@
 ---
-title: 07. Binary Trees
+title: 06. Binary Trees
 description: Binary Trees
 date: 2023-02-06
 tags:

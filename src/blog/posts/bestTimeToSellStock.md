@@ -1,5 +1,5 @@
 ---
-title: 12. Best Time to Buy and Sell Stock
+title: 16. Best Time to Buy and Sell Stock
 description: Best Time to Buy and Sell Stock
 date: 2023-02-27
 tags:

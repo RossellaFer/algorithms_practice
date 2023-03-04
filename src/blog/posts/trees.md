@@ -1,5 +1,5 @@
 ---
-title: 06. Trees
+title: 05. Trees
 description: Theory about trees
 date: 2023-02-06
 tags:

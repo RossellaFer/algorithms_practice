@@ -1,5 +1,5 @@
 ---
-title: 08. Merge Two Arrays
+title: 18. Merge Two Arrays
 description: Merge two arrays
 date: 2023-02-11
 tags:

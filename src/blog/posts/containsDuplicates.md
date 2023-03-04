@@ -1,5 +1,5 @@
 ---
-title: 09. Contains Duplicates
+title: 12. Contains Duplicates
 description: Contains Duplicates
 date: 2023-02-19
 tags:

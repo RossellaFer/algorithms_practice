@@ -280,3 +280,21 @@ h2 {
   }
 
 }
+
+.notation_table {
+  margin-top: 20px;
+}
+
+.notation_table td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.notation_table th {
+  font-weight: 600;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}

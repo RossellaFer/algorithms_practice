@@ -1,5 +1,5 @@
 ---
-title: 11. Intersection of two arrays
+title: 14. Intersection of two arrays
 description: Intersection of Two Arrays II
 date: 2023-02-25
 tags:

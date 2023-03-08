@@ -11,7 +11,13 @@ tags:
 
 Arrays are a way to store data contiguously.
 
+<br />
+
 In strictly typed languages, such as C++, Java or C#, arrays have to have an allocated size when initialized; loosely typed languages like JavaScript or Python do not have static arrays.
+
+<br />
+
+Dynamic arrays are resized automatically by the operating system. When inserting into an array, the operating system finds the next available slot and inserts the item into this slot. If there is no slot available (we are exceeding the array capacity), adding a new element is achieved by copying all elements of the first array into an array that is double its size, assign this to a new address in memory and removing the reference to the previous array in memory.
 
 <br />
 

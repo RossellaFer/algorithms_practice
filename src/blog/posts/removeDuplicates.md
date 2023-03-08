@@ -58,7 +58,7 @@ We start from 1 since the first value will always remain there (since it's uniqu
 
 <br />
 
-When we encounter a new unique value (checked by comparing wiht the element at the previous index), we move it to the position at index leftIdx, and only then increment leftIdx by 1.
+When we encounter a new unique value (checked by comparing wiht the element at the previous index), we move it to the position at index leftIdx, and only then increment leftIdx by 1, since the next unique value will be at leftIndex + 1.
 The for loop handles the increment of the other pointer.
 
 <br />

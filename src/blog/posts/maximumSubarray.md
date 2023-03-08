@@ -1,5 +1,5 @@
 ---
-title: 13. Maximum subarray
+title: 19. Maximum subarray
 description: Maximum subarray Leetcode exercise
 date: 2023-02-21
 tags:

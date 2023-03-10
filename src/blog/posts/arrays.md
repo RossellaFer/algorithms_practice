@@ -93,3 +93,5 @@ Two pointers is a more general version of sliding window where the pointers can 
 [Neetcode](https://neetcode.io/courses/dsa-for-beginners)
 
 [Master the Coding Interview: Data Structures + Algorithms](https://www.udemy.com/course/master-the-coding-interview-data-structures-algorithms/?LSNPUBID=PPkX79%2Fc*b0&ranEAID=PPkX79%2Fc*b0&ranMID=39197&ranSiteID=PPkX79_c.b0-FrYf6x50Gk.iAzMPXJT2Fg&utm_medium=udemyads&utm_source=aff-campaign)
+
+[Coding Interview Prep - Women Who Code San Diego](https://www.youtube.com/playlist?list=PLVcEZG2JPVhcpYUHmzU-ST7YZMHdArLU-)

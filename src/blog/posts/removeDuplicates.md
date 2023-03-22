@@ -119,7 +119,7 @@ var removeDuplicates = function (nums) {
   while (right < nums.length) {
     const [leftVal, rightVal] = [nums[left], nums[right]];
 
-    const isEqual = rigthVal === leftVal;
+    const isEqual = rightVa === leftVal;
 
     if (!isEqual) {
       left++;

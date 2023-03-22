@@ -138,7 +138,7 @@ var intersect = function (nums1, nums2) {
 
 <br />
 
-Another approach is of insert all elements of one of the arrays in a hash table and search each element of the other array. If the element is in the hash table, we add it to the intersection list.
+Another approach is to insert all elements of one of the arrays in a hash table and search each element of the other array. If the element is in the hash table, we add it to the intersection list.
 
 The time complexity of inserting the elements of nums1 in the hash table is O(m + n), where m and n are the length of the two arrays. Space complexity will be O(n), for storing the values in the hash table
 

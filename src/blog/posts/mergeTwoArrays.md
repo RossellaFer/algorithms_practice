@@ -128,3 +128,8 @@ mergeSortedArrays([0, 3, 4, 31], [4, 6, 30]);
 </details>
 
 <br />
+
+### Comments
+
+<br />
+A practical use cases for this algorithm could be merging results from multiple sorted lists. In some applications, we may need to fetch data from multiple sources or databases that are sorted by a particular criterion, such as timestamps or alphabetical order. We can use the mergeSortedArrays algorithm to merge the results from each database into a single sorted list.

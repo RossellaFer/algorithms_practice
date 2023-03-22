@@ -114,7 +114,7 @@ var containsDuplicate = function (nums) {
 
 <br />
 
-Using Map instead of an object could be faster
+Using Set instead of an object could be faster, since the Set object allows you to store unique values. Comparing it with the length of the original object will return true or false.
 
 <br />
 

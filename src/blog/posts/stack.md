@@ -27,13 +27,28 @@ The order is LIFO (last in first out), because the last item that comes in is th
 
 ## Operations
 
-Lookup = O(n)
-
-pop = O(1)
-
-push = O(1)
-
-peek = O(1)
+<table class="notation_table">
+  <tr>
+    <th>Operation</th>
+    <th>Complexity</th>
+  </tr>
+  <tr>
+    <td>Lookup</td>
+    <td>O(1)</td>
+  </tr>
+    <tr>
+    <td>Pop</td>
+    <td>O(1)</td>
+  </tr>
+    <tr>
+    <td>Push</td>
+    <td>O(1)</td>
+  </tr>
+    <tr>
+    <td>Peek/Top</td>
+    <td>O(1)</td>
+  </tr>
+</table>
 
 <br />
 <br />
